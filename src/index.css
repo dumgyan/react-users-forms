@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page {
+  background-image: url(https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2169ss6yf0x6oy1kmciz.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 100%;
+}
+
+.name {
+  color: white;
+}
+
+.input {
+  background-color: rgba(141, 137, 137, 0.223)!important;
+  color: white !important;
+}
+
+::placeholder {
+  color: rgba(251, 159, 0, 0.482) !important;
+}
+
+.card {
+  background-color: rgba(116, 111, 104, 0.358) !important;
+  color: white;
+}
+
+.card .heading {
+  color: rgb(255, 213, 0) !important;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: rgb(191, 113, 11);
+  font-size: 2rem !important;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}

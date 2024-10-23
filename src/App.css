@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.page h1 {
+  color: rgba(201, 10, 10, 0.687);
+  padding-top: 1rem;
+}
+
+hr {
+  color: black;
+}
